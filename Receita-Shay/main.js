@@ -33,8 +33,8 @@ form.addEventListener('submit', (evento)=>{
     precos.push(vendafabrica);
     venda += vendafabrica[0]
     fabrica += vendafabrica[1]    
-    precoVenda.textContent = "Preco de Venda: R$ " + venda
-    precoFabrica.textContent = "Preco de Fábrica: R$ " + fabrica
+    precoVenda.textContent = "Preco de Venda: R$ " + venda.toFixed(2);
+    precoFabrica.textContent = "Preco de Fábrica: R$ " + fabrica.toFixed(2);
     ingrediente.value = '';
     qtdComprada.value = '';
     qtdUsada.value = '';
