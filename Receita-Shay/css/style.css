@@ -1,0 +1,60 @@
+html {
+    background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
+    height: 100%;
+    font-family: 'Roboto', cursive;
+    color:#C5965F
+}
+.cabecalho {
+    font-size: 50px;
+    text-align: center;
+    color: #C5965F;
+}
+
+.conteudo {
+    padding: 1vh 3em 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.cadastrar{
+    margin-top: 2em;
+}
+
+.cadastrar, .limpar {
+    cursor: pointer;
+}
+
+.tabela {
+    border: 1px solid coral;
+
+
+}
+
+td {
+    text-align: center;
+}
+
+.fabrica{
+    margin-bottom: 10px;
+}
+
+.adicionar{
+    margin: 0px 0px 12px;
+    padding: 0px 75% 10px 7px;
+}
+
+
+
+
+
+@media only screen and (max-device-width: 900px) {
+    .menu { width:600px; } 
+    .adicionar{
+        padding: 12px 143px 18px 14px;
+    }
+    .cadastrar{
+        margin-top: 21px;
+    }
+}
