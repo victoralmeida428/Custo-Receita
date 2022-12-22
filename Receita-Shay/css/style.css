@@ -28,7 +28,7 @@ html {
 
 .tabela {
     border: 1px solid coral;
-    margin-left: -2em
+
 
 
 }
@@ -57,5 +57,9 @@ td {
     }
     .cadastrar{
         margin-top: 21px;
+    }
+    .tabela {
+        margin-left: -2em;
+        margin-right: 2em;
     }
 }
