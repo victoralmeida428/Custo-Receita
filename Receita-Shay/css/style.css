@@ -28,9 +28,10 @@ html {
 
 .tabela {
     border: 1px solid coral;
-
-
-
+}
+td, th {
+    border: 1px solid coral;
+    padding: 8px 15px;
 }
 
 td {
