@@ -35,6 +35,10 @@ form.addEventListener('submit', (evento)=>{
     fabrica += vendafabrica[1]    
     precoVenda.textContent = "Preco de Venda: R$ " + venda
     precoFabrica.textContent = "Preco de Fábrica: R$ " + fabrica
+    ingredientes.value = ''
+    qtdComprada.value = ''
+    qtdUsada.value = ''
+    preço.value = ''
 })
 
 function criarElemento(item) {
